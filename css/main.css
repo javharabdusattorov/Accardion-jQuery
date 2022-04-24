@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Fredoka:wght@500&family=IBM+Plex+Sans+Thai+Looped&family=Inconsolata:wght@500&family=M+PLUS+1:wght@600&family=Mukta&family=Nunito:wght@200;300;400;500;600&family=Palette+Mosaic&family=Poppins:wght@300;400;800&family=Press+Start+2P&family=Roboto&family=Smooch+Sans:wght@800&family=Supermercado+One&family=Work+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.accardion {
+    max-width: 750px;
+    margin: 20px auto;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.accardion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: dodgerblue;
+    padding: 16px 15px;
+    font-size: 18.5px;
+    color: white;
+    letter-spacing: 0.3px;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+}
+
+/* .accardion-header.active i { 
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out;
+} */
+
+.accardion-body {
+    background-color: gainsboro;
+    padding: 14px 23px;
+    font-size: 18px;
+}
